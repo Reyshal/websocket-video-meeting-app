@@ -1,9 +1,9 @@
-import VideoChat from "./components/VideoChat";
+import JoinRoom from "./components/JoinRoom";
 
 function App() {
   return (
     <div className="App">
-      <VideoChat />
+      <JoinRoom />
     </div>
   );
 }

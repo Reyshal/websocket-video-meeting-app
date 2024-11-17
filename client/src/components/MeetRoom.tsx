@@ -5,7 +5,7 @@ const socket = io("http://localhost:3001", {
   withCredentials: false,
 });
 
-const VideoChat: React.FC = () => {
+const MeetRoom: React.FC = () => {
   const [localStream, setLocalStream] = useState<MediaStream | null>(null);
   const [remoteStream, setRemoteStream] = useState<MediaStream | null>(null);
   const localVideoRef = useRef<HTMLVideoElement | null>(null);
@@ -94,4 +94,4 @@ const VideoChat: React.FC = () => {
   );
 };
 
-export default VideoChat;
+export default MeetRoom;
